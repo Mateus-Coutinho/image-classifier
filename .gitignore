@@ -1,0 +1,24 @@
+# Ambiente virtual Python
+.venv/
+env/
+venv/
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Dataset (pesado demais para o Git)
+data/
+data_cache/
+val_cache/
+
+# Modelos treinados (.keras / .h5)
+models/*.keras
+models/*.h5
+
+# Logs e arquivos de sistema
+*.log
+.DS_Store
+.vscode/
+.idea/
